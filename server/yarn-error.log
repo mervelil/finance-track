@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\merve\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js dev
+
+PATH: 
+  C:\Program Files\Microsoft\jdk-17.0.11.9-hotspot\bin;D:\oracle\product\21c\dbhomeXE\bin;D:\ORACLE\dbhomeXE\bin;D:\XE\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs;C:\msys64\mingw64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;D:\bin;D:\adr\bin;D:\İndirilenler\ngrok.exe;C:\Program Files\nodejs\;D:\SDK\platform-tools;C:\Users\merve\AppData\Roaming\npm\node_modules\@react-native-community\cli;C:\Program Files\MongoDB\Server\7.0\bin;C:\Program Files\MongoDB\mongosh-2.3.1-win32-x64\bin;D:\Graphviz\bin;C:\Program Files (x86)\MGLTools-1.5.7;C:\Program Files (x86)\MGLTools-1.5.6;C:\Python;C:\Python\Scripts;C:\Users\merve\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.8;D:\İndirilenler\ngrok.exe;C:\Users\merve\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Users\merve\AppData\Roaming\npm;C:\Users\merve\AppData\Roaming\Python\Python38\Scripts;C:\Program Files\MongoDB\Server\7.0\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\merve\Desktop\finance-track\server\package.json: Unexpected token '}', ..."   "":
+  
+    },
+    "keyw"... is not valid JSON
+      at JSON.parse (<anonymous>)
+      at C:\Users\merve\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\merve\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\merve\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start":"node ./build/index.ts" ,
+      "build":"tsc -p .",
+      "dev": "nodemon ./src/index.ts",
+      "":
+  
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@types/express": "^4.17.21",
+      "@types/mongoose": "^5.11.97",
+      "express": "^4.21.0",
+      "mongoose": "^8.6.2",
+      "nodemon": "^3.1.4",
+      "ts": "^0.2.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
